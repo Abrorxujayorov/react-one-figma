@@ -1,0 +1,21 @@
+.heroleft{
+    width: 60%;
+    height: 100%;
+    border: var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__mini{
+        width: 60%;
+        gap: 2rem;
+        border: var(--border);
+    }
+    &__mini h1{
+        margin-bottom: 30px;
+        color: #fff;
+    }
+    &__mini p{
+        color: #fff;
+        font-weight: 900;
+    }
+}

@@ -1,0 +1,20 @@
+.list{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: var(--border);
+    list-style: none;
+    &__item{
+        line-height: normal;
+    }
+    &__link{
+        text-decoration: none;
+        color: #000;
+    }
+    &__link:hover{
+        border-bottom: 2px rgb(66, 64, 64) solid;
+        opacity: .8;
+    }
+}

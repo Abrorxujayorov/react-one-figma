@@ -1,0 +1,49 @@
+.info{
+    width: 50%;
+    height: 100%;
+    border: var(--border);
+    display: flex;
+    align-items: center;
+}
+.bgColors{
+    width: 90px;
+    height: 40px;
+    border: 1px solid rgba(170, 170, 170, 1);
+    margin-left: 150px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(21, 26, 30, 0.658);
+}
+.icon{
+    padding: 8px;
+    border: 1px solid rgba(170, 170, 170, 1);
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    background: rgba(84, 84, 212, 1);
+}
+.phone{
+    width: 50%;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.info-link{
+    color: #fff;
+}
+.zvanok{
+    padding: 9px 16px;
+    border-radius: 7px;
+    background: #6911AD;
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #fff;
+}

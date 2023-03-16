@@ -1,0 +1,19 @@
+.Hero_right{
+    width: 40%;
+    height: 100%;
+    border: var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Hero_right__mini{
+    width: 60%;
+    height: 60%;
+    border: var(--border);
+    background: 
+    rgba(217, 217, 217, 1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
